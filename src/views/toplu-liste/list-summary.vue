@@ -3,8 +3,6 @@
     <div>
       <screen-title>
         <span>清单汇总</span>
-        <template #right>
-        </template>
       </screen-title>
       <div class="">
         <div class="selected-reset">
@@ -25,7 +23,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive, toRefs, onMounted } from 'vue';
+import { defineComponent, reactive, toRefs } from 'vue';
 import ScreenTitle from '@/components/screen-title.vue';
 
 export default defineComponent({
