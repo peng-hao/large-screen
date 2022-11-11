@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/** ************************** 通用样式 ****************************** */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 14px;
+}
+
+/** ****************** 修改type=number的样式 ****************** */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+/** ******************************************************** */
+
+/* 修改谷歌浏览器记住密码后input默认样式 */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: 0 0 0 1000px transparent inset !important;
+  transition: background-color 50000s ease-in-out 0s;
+  -webkit-text-fill-color: #EDEDED !important;
+}
+
+/** ******************************************************** */
+
+/** ****************** 浏览器滚动条样式修改 ******************* */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-button {
+  height: 0;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 140px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: #DDD;
+  background-clip: content-box;
+}
+
+/** ******************************************************** */
+
+/* 文本省略号 */
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@font-face {
+  font-family: 'FZZongYi-M05S';
+  src: url('~@/assets/font/FZZongYi-M05S.ttf');
+}

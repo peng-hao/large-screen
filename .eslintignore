@@ -1,0 +1,7 @@
+node_modules
+**/lib
+**/es
+**/dist
+package/ths/services/**/types
+package/ths/utils/**/types
+

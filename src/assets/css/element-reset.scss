@@ -1,0 +1,55 @@
+.el-select .el-input__wrapper {
+  background: #4F7A5E;
+}
+
+.el-select .el-input__inner {
+  color: #FFF;
+}
+
+.select-down {
+  background: #4F7A5E;
+}
+
+.select-down .el-select-dropdown__item.selected {
+  background: #93C7A1;
+  color: #0FF;
+  font-weight: 500;
+}
+
+.select-down .el-select-dropdown__item.hover,
+.select-down .el-select-dropdown__item:hover {
+  background: #93C7A1;
+}
+
+.select-down .el-select-dropdown__item {
+  color: #FFF;
+}
+
+.el-popper__arrow {
+  display: none;
+}
+
+.select-down .el-popper.is-light {
+  border: 0;
+}
+
+.el-popper.is-pure {
+  margin-top: -8px !important;
+  border: 0 !important;
+}
+
+.el-input__wrapper:hover {
+  box-shadow: 0 0 0 1px #0FF inset !important;
+}
+
+.el-input__wrapper {
+  box-shadow: 0 0 0 1px #93C7A1 inset !important;
+}
+
+.el-select .el-input .el-select__caret {
+  color: #FFF !important;
+}
+
+.el-select-dropdown__list {
+  margin: 0 !important;
+}

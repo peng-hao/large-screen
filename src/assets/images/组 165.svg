@@ -1,0 +1,28 @@
+<svg id="组_165" data-name="组 165" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0d3371;
+        stroke: #01f5ff;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1.5" y="1.5" width="111" height="111" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6.667" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#00eaff" flood-opacity="0.3"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #0d3371; filter: url(#filter)">
+    <circle id="椭圆_553_拷贝_10" data-name="椭圆 553 拷贝 10" class="cls-1" cx="56.25" cy="56.375" r="35.59" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#椭圆_553_拷贝_10" style="stroke: #01f5ff; filter: none; fill: none"/>
+  <image id="jianguan2" x="38.5" y="40.5" width="36" height="33" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAhCAYAAACxzQkrAAACb0lEQVRYhc2XS2wNURjHfzOdG1SkFtJ003iEDUmFsJF00UosxCP1SImERGzUTrwWjdqKsNQFC0QsBBFdECRWIuIRBJV4BIuWeCeoVO+MfPxb43ZG3XZqzj+5uXPPuXPOb/7fOd98x2s8HdUD7cBMwCMfRcB9YLPXcCZ6BkzNCaRUT4LIj1yBMU0PQi9ygOO3gsh3BeWXgrDCMYdC3y0gP/Qho8/50GdR6HNrJONlGbJtwEPgDnB9uKkkq5DdEIzpDbAYuAZMLB8oG4eO6Hse8BJ4BDQBF4FCOQN5dVd7RkrUC9QAH4ATClUj0AOsB46WM1gWDp0TTJVcGSuIZuAYMANojf0/VPscYPZoAPU70CwY02rA3pG7gN1ybZ36tgMHBHR7EFBxaKDvwDK5YG5Ux/peAxd0vaHkvp3AU+AQsBGYDNwTjKklabJ/cag1NqmBXQHG6fdxoE9hWZBw70HgOXAJWAJ8Vru5tCkRaAiHLgP7dF1QfrGFelK1U3+4St0ZGB84JdgHalsF7E2b0JvS+SmN6B1QB3QBawSyFCjqCdcCcy3by4XavzyYpYIGraWOmMODgWoff0wDWq41Y7G/q11kIdii/ll66oVyMhOlraF2wVQot1SpvUW7Z38sBGnhGpa8mhfvk4isvu4E2oA9JX2WR1YCZ4EJwCugcrQdstDcBLYm9PnaXTuA+ixhTN6k7rdOFURB0bECzcES1kGgPmVUF9QbhP7PzNnkCFCHN+Zrd6VedNNyhrHK4LBX+NaVM8efip9cxwPzc2CIlIS/UHLqsLJyRQ5AJitnrOI0hwaA7DxlBdj/3nG2y62aAOAHIkbITM6Tz8sAAAAASUVORK5CYII="/>
+</svg>
